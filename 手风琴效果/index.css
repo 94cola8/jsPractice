@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu-container{
+    width: 200px;
+    margin: 0 auto;
+    line-height: 30px;
+    user-select: none;
+}
+
+.menu-container h2{
+    background: #97C2D3FF;
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+.menu{
+    margin: 15px 0;
+}
+
+.submenu{
+    background: #d1e1e7;
+    padding: 0 35px;
+    height: 0;
+    overflow: hidden;
+}
+.submenu li{
+    height: 30px;
+}
