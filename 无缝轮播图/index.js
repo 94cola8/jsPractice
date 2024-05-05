@@ -23,7 +23,6 @@ function init() {
 	carousel.innerHTML = images
 	footer.innerHTML = dots
 }
-
 init()
 
 const dots = document.querySelectorAll('.dot')
